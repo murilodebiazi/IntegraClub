@@ -10,19 +10,19 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Getter
 @Setter
 @ToString
-@Table(name="mensagem_justificativa")
-public class Mensagem_justificativa {
+@Table(name="mensagemJustificativa")
+public class MensagemJustificativa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_mensagem_justificativa;
+    private int idMensagemJustificativa;
     private String assunto, corpo;
-    private DateTimeFormat enviado_em;
-    @JoinColumn(name= "id_administrador")
+    private DateTimeFormat enviadoEm;
+    @JoinColumn(name= "idAdministrador")
     private Administrador administrador;
-    @JoinColumn(name= "id_instituicao")
+    @JoinColumn(name= "idInstituicao")
     private Instituicao instituicao;
-    @JoinColumn(name= "id_denuncia")
+    @JoinColumn(name= "idDenuncia")
     private Denuncia denuncia;
-    @JoinColumn(name= "id_report_avaliacao")
-    private Report_avaliacao report_avaliacao;
+    @JoinColumn(name= "idReportAvaliacao")
+    private ReportAvaliacao reportAvaliacao;
 }

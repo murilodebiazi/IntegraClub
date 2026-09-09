@@ -4,14 +4,14 @@ import jakarta.persistence.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
-public class Pedido_verificacao {
+public class PedidoVerificacao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_pedido_verificacao;
+    private int idPedidoVerificacao;
     private String status;
-    private DateTimeFormat criado_em, avaliado_em;
-    @JoinColumn(name= "id_instituicao")
+    private DateTimeFormat criadoEm, avaliadoEm;
+    @JoinColumn(name= "idInstituicao")
     private Instituicao instituicao;
-    @JoinColumn(name= "id_admnistrador")
+    @JoinColumn(name= "idAdministrador")
     private Administrador administrador;
 }

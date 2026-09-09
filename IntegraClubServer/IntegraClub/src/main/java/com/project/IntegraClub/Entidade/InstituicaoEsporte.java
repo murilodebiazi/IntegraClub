@@ -9,12 +9,13 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-@Table(name="instituicao_foto")
-public class Instituicao_foto {
+@Table(name="instituicaoEsporte")
+public class InstituicaoEsporte {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_instituicao_foto;
-    private String url;
-    @JoinColumn(name= "id_instituicao")
+    private int idInstituicaoEsporte;
+    @JoinColumn(name= "idInstituicao")
     private Instituicao instituicao;
+    @JoinColumn(name= "idEsporte")
+    private Esporte esporte;
 }

@@ -14,10 +14,10 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class Instituicao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_instituicao;
+    private int idInstituicao;
     private String cnpj, email, senha, nome, descricao, telefone, site, logo, logradouro, numero, bairro, cidade,
     estado, cep;
     private Long latitude, longitude;
     private boolean verificada, ativa;
-    private DateTimeFormat criado_em;
+    private DateTimeFormat criadoEm;
 }

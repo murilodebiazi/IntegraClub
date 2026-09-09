@@ -14,7 +14,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_usuario;
+    private int idUsuario;
     private String nome, email, senha, telefone;
-    private DateTimeFormat criado_em;
+    private DateTimeFormat criadoEm;
 }

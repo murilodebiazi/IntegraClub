@@ -13,6 +13,6 @@ import lombok.*;
 public class Esporte {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_esporte;
-    private String ninome;
+    private int idEsporte;
+    private String nome;
 }

@@ -11,14 +11,14 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Setter
 @ToString
 @Table(name="report_avaliacao")
-    public class Report_avaliacao {
+    public class ReportAvaliacao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_report_avaliacao, nota;
+    private int idReportAvaliacao, nota;
     private String comentario;
-    private DateTimeFormat criado_em;
-    @JoinColumn(name= "id_avaliacao")
+    private DateTimeFormat criadoEm;
+    @JoinColumn(name= "idAvaliacao")
     private Avaliacao avaliacao;
-    @JoinColumn(name= "id_usuario")
+    @JoinColumn(name= "idUsuario")
     private Usuario usuario;
 }

@@ -14,6 +14,6 @@ import lombok.*;
 public class Administrador {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_administrador;
+    private int idAdministrador;
     private String nome, email, senha;
 }
