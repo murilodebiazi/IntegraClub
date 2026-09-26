@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores do IntegraClub -->
+    <color name="branco">#FFFFFF</color>
+    <color name="creme">#FFF7F0</color>
+    <color name="algodao">#EDEBDD</color>
+    <color name="salmao">#FFEBE4</color>
+    <color name="lilas">#D7B7B7</color>
+    <color name="preto">#000000</color>
+    <color name="noir">#1B1717</color>
+    <color name="vermelho">#E22828</color>
+    <color name="vermelho_claro">#C63B37</color>
+    <color name="vermelho_escuro">#B80C09</color>]
+    <color name="vermelho_mais_escuro">#A62729</color>
+    <color name="cereja">#810100</color>
+    <color name="dourado">#F59E0B</color>
+    <color name="transparente">#00000000</color>
 </resources>

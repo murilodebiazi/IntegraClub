@@ -1,9 +1,9 @@
 package com.project.IntegraClub.Repository;
 
-import org.apache.catalina.User;
+import com.project.IntegraClub.Entidade.Usuario;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends CrudRepository<User, Integer> {
+public interface UsuarioRepository extends CrudRepository<Usuario, Integer> {
 }

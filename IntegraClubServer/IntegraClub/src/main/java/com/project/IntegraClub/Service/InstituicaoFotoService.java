@@ -2,8 +2,6 @@ package com.project.IntegraClub.Service;
 
 import com.project.IntegraClub.Entidade.InstituicaoFoto;
 import com.project.IntegraClub.Repository.InstituicaoFotoRepository;
-import com.project.IntegraClub.Repository.UserRepository;
-import org.apache.catalina.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

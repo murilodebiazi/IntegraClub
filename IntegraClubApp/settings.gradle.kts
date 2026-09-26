@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "IntegraClub App"
+rootProject.name = "IntegraClubApp"
 include(":app")
+ 
